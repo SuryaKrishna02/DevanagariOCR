@@ -13,4 +13,11 @@ Keras 2.0 or higher, and TensorFlow 1.0 or higher should be enough
 The trained EAST model can be downloaded from [here.](https://drive.google.com/file/d/1Zf-hNC4XpxFLMPQoMBkIRZH2Cia15hCn/view?usp=sharing)
 The trained CRNN model can be downloaded from [here.](https://drive.google.com/file/d/1JBS19RG73S6PfbV1CAdANbzqGB6id186/view?usp=sharing)
 
+## Test
+Both the models should be in /models directory. The document images that you want to recognize should be in Input/ directory. One can change the path of the directories in the 
+arguments in OCR.py. The output of the model consists image with bounding boxes drawn on it, bounding boxes coordinates and predicted text word document in the output directory.
+
+```python
+python OCR.py
+```
 
